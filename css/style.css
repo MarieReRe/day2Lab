@@ -4,16 +4,19 @@ body {
 }
 
 ul li {
-   
+  display:inline-block; 
+  text-align: center;
 
 }
 
 
 h1 {
+    text-align: center;
    
 }
 
 nav {
+    text-align: center;
     
 }
 
