@@ -6,9 +6,8 @@ body {
 }
 
 img {
-    background-repeat: no-repeat;
-    background-image: url('/images/Header.png');
-}
+    
+  }
 
 ul li {
   display:inline-block; 
@@ -23,9 +22,29 @@ h1 {
 }
 
 h2 {
-    text-align: right;
+    text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
+    
+}
+aside {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+    
+}
+
+/* .left {
+    float: left;
+} */
+.bio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
 }
 nav {
     text-align: center;
@@ -36,15 +55,6 @@ p {
    
 }
 
-#something-else {
- 
-}
-
-.more-content {
-    
-
-}
-
-section p.more-content {
-    
+footer { 
+    padding: 15px;
 }

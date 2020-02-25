@@ -16,3 +16,18 @@
 console.log('This is working')
 
 
+
+// var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
+// console.log('Our new best friends name:' + firstName);
+// alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
+// var bermuda = prompt("Have I ever lived in the Carribean?");
+// console.log('Have I ever lived in Carribean: ' + bermuda);
+// var ohio = prompt('Am I originally from Ohio?');
+// console.log('State of residence:' + ohio);
+// var husband = prompt('Am I married?');
+// console.log('Married?' + husband);
+// var prevCareer = prompt('In my past career I was a Chef?');
+// console.log('Previous Career answer:' + prevCareer);
+//  alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
+
+
