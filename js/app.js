@@ -17,32 +17,32 @@ console.log('This is working')
 
 
 
-// var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
-// console.log('Our new best friends name:' + firstName);
-// alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
+var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
+console.log('Our new best friends name:' + firstName);
+alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
 
-// var lowerCaseName = firstName.toLowerCase();
+var lowerCaseName = firstName.toLowerCase();
 
-// if(lowerCaseName === 'marie'){
-//     alert(firstName + ' ,' + 'welcome back best friend!');
-//   } else {
-//     alert('Welcome Back!');
-//   }
+if(lowerCaseName === 'marie'){
+    alert(firstName + ' ,' + 'welcome back best friend!');
+  } else {
+    alert('Welcome Back!');
+  }
 
-// var bermuda = prompt("Have I ever lived in the Carribean?");
-// console.log('Have I ever lived in Carribean: ' + bermuda);
-// alert('Bermuda is not in the Carribean, its across from the Carolinas.')
+var bermuda = prompt("Have I ever lived in the Carribean?");
+console.log('Have I ever lived in Carribean: ' + bermuda);
+alert('Bermuda is not in the Carribean, its across from the Carolinas.')
 
-// var ohio = prompt('Am I originally from Ohio?');
-// console.log('State of residence:' + ohio);
-// alert('I am originally from Ohio')
+var ohio = prompt('Am I originally from Ohio?');
+console.log('State of residence:' + ohio);
+alert('I am originally from Ohio')
 
-// var husband = prompt('Am I married?');
-// console.log('Married?' + husband);
-// alert('I am so married, woo!')
+var husband = prompt('Am I married?');
+console.log('Married?' + husband);
+alert('I am so married, woo!')
 
-// var prevCareer = prompt('In my past career I was a Chef?');
-// console.log('Previous Career answer:' + prevCareer);
-//  alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
+var prevCareer = prompt('In my past career I was a Chef?');
+console.log('Previous Career answer:' + prevCareer);
+ alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
 
 
