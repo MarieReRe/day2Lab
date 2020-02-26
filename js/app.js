@@ -1,6 +1,6 @@
 
 //Assignment requirements
-//[] top 10 hobbies/restuarant as ordered list
+//[x] top 10 hobbies/restuarant as ordered list
 //[]work and education into ul
 //[]add feedback responses if missed question
 //[]Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
@@ -55,6 +55,10 @@
 // var prevCareer = prompt('In my past career I was a Chef?');
 // console.log('Previous Career answer:' + prevCareer);
 //  alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
+
+
+
+
 
 
 // });
