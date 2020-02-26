@@ -8,7 +8,7 @@
 [] Ask the user their name through a prompt()
 []Display that name back to the user through a custom greeting welcoming them to your site.
 []Display the user’s name back to them in your final message to the user.
-[] STRETCH GOAL: Push yourself in your CSS work. Experiment, try some layout feature or technique that you have not tried before (maybe a sticky header or sticky footer, icon fonts such as FontAwesome, etc.) or just try to refine your layout/style as much as possible. We will not cover responsive design until Code 301, but if you have background in it, implement a breakpoint for a mobile view.
+[x] STRETCH GOAL: Push yourself in your CSS work. Experiment, try some layout feature or technique that you have not tried before (maybe a sticky header or sticky footer, icon fonts such as FontAwesome, etc.) or just try to refine your layout/style as much as possible. We will not cover responsive design until Code 301, but if you have background in it, implement a breakpoint for a mobile view.
 */
 
 //do these two things first
@@ -17,17 +17,29 @@ console.log('This is working')
 
 
 
-// var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
-// console.log('Our new best friends name:' + firstName);
-// alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
-// var bermuda = prompt("Have I ever lived in the Carribean?");
-// console.log('Have I ever lived in Carribean: ' + bermuda);
-// var ohio = prompt('Am I originally from Ohio?');
-// console.log('State of residence:' + ohio);
-// var husband = prompt('Am I married?');
-// console.log('Married?' + husband);
-// var prevCareer = prompt('In my past career I was a Chef?');
-// console.log('Previous Career answer:' + prevCareer);
-//  alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
+var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
+console.log('Our new best friends name:' + firstName);
+alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
+
+var lowerCaseName = firstName.toLowerCase();
+
+if(lowerCaseName === 'marie'){
+    alert(firstName + ' ,' 'welcome back best friend!');
+  } else {
+    alert('Welcome Back!');
+  }
+
+var bermuda = prompt("Have I ever lived in the Carribean?");
+console.log('Have I ever lived in Carribean: ' + bermuda);
+
+var ohio = prompt('Am I originally from Ohio?');
+console.log('State of residence:' + ohio);
+
+var husband = prompt('Am I married?');
+console.log('Married?' + husband);
+
+var prevCareer = prompt('In my past career I was a Chef?');
+console.log('Previous Career answer:' + prevCareer);
+ alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
 
 
