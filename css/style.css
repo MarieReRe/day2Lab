@@ -1,85 +1,83 @@
-
+/*  
+To do: 
+[] insert social media buttons
+[] link nav bar buttons to new pages
+[] insert actual information to each section
+[]
+*/
 body {
-    margin: 0 auto;
-    background-color: #ff66c4;
-  
+  margin: 0 auto;
+  background-color: #ff66c4;
 }
 
 ul li {
-  display:inline-block; 
+  display: inline-block;
   text-align: center;
-
 }
 
 h1 {
-    text-align: center;
-   
+  text-align: center;
 }
 
 h2 {
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
 }
 
 .right {
-    float: right;
-    width: 40%;
-    text-align: justify;
-    margin: 40px;
-    padding: 20px;
+  float: right;
+  width: 40%;
+  text-align: justify;
+  margin: 40px;
+  padding: 20px;
 }
 
 .left {
-    float: left;
-    width: 40%;
+  float: left;
+  width: 40%;
 
-    text-align: justify;
-    margin: 40px;
-    padding: 20px;
+  text-align: justify;
+  margin: 40px;
+  padding: 20px;
 }
 
 .biographyAvatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-
-
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
-.iwc{
-      display: block;
-    margin-left: auto;
-     margin-right: auto;
-    width: 35%;
-    border-radius: 50%;
+.iwc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 50%;
 }
 nav {
-    text-align: center;
-    font-size: 35px;
-    font-family: fantasy;
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
   color: gold;
 }
 
 p {
-   
 }
 
-footer { 
-    padding: 15px;
-    margin: 0;
-    clear: both;
+footer {
+  padding: 15px;
+  margin: 0;
+  clear: both;
 }
 
 .footerNav {
-    color: green;
+  color: green;
 }
 
 .logo {
-   
-    display: block;
-    margin-left: auto;
-     margin-right: auto;
-    width: 15%;
-    border-radius: 50%;
-} 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-radius: 50%;
+}

@@ -13,7 +13,7 @@
 
 //do these two things first
 'use strict';
-console.log('This is working')
+console.log('This is working');
 
 
 
@@ -31,15 +31,15 @@ if(lowerCaseName === 'marie'){
 
 var bermuda = prompt("Have I ever lived in the Carribean?");
 console.log('Have I ever lived in Carribean: ' + bermuda);
-alert('Bermuda is not in the Carribean, its across from the Carolinas.')
+alert('Bermuda is not in the Carribean, its across from the Carolinas.');
 
 var ohio = prompt('Am I originally from Ohio?');
 console.log('State of residence:' + ohio);
-alert('I am originally from Ohio')
+alert('I am originally from Ohio');
 
 var husband = prompt('Am I married?');
 console.log('Married?' + husband);
-alert('I am so married, woo!')
+alert('I am so married, woo!');
 
 var prevCareer = prompt('In my past career I was a Chef?');
 console.log('Previous Career answer:' + prevCareer);
