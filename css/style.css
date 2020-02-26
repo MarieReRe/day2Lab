@@ -11,8 +11,8 @@ body {
 }
 
 ul li {
-  display: inline-block;
-  text-align: center;
+  margin-left: 75px;
+  /* text-align: center; */
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
   float: right;
   width: 40%;
   height: 35%;
-  text-align: justify;
+  /* text-align: center; */
   margin: 40px;
   padding: 20px;
 }
@@ -38,7 +38,7 @@ h2 {
   float: left;
   width: 40%;
   height: 35%;
-  text-align: justify;
+  /* text-align: center; */
   margin: 40px;
   padding: 20px;
 }
@@ -75,3 +75,13 @@ footer {
   color: green;
 }
 
+.footerNav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+#food{
+  width: 875px;
+  clear: both;
+  float: right;
+  outline: dashed;
+}
