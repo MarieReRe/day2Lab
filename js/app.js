@@ -85,17 +85,17 @@ window.addEventListener('load', (event) => {
   for (var i = 0; i < 6; i++) {
     question7 = prompt('What is my favorite foods?');
     console.log(question7);
-    for (var j = 0; j < q7Answer.length; j++) {
-      if (q7Answer[i] === question7) {
-        alert('Congrats you somehow guessed correctly!');
-        correctA = true;
-        break;
-      } else if (q7Answer[i] != question7) {
-        alert('Sorry, try again');
-      }
-      if (correctA) {
-        break;
-      }
+  }
+  for (var j = 0; j < q7Answer.length; j++) {
+    if (q7Answer[j] === question7) {
+      alert('Congrats you somehow guessed correctly!');
+      correctA = true;
+      break;
     }
+  }
+  if (!correctA) {
+    alert('Sorry, try again');
+  } else {
+    break;
   }
 });
