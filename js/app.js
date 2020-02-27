@@ -18,107 +18,106 @@
 // []Attempt to make your code more DRY by putting all of the questions, answers, and responses to the first five yes/no questions into arrays (or even one huge multidimensional array), and modifying the game logic such that a ‘for’ loop will control the flow from question to question.
 //[x]Make the number-guessing question use a random number as its correct answer.
 
-
+// this is a chenage that we can remove
 
 window.addEventListener('load', (event) => {
   //do these two things first
   'use strict';
   console.log('This is working');
 
-  function beginQuiz(){
-    firstName();
-    lowerCaseName();
-    bermuda();
-    ohio();
-    husband();
-    prevCareer();
-    getRandomInt();
-    question7();
+  function beginQuiz() {
+    questionOne();
+    questionTwo();
+    questionThree();
+    questionFour();
+    questionFive();
+    questionSix();
+    questionSeven();
   }
 
-  function firstname() {
 
   var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
   console.log('Our new best friends name:' + firstName);
   alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
+
+  function questionOne() {
+    var lowerCaseName = firstName.toLowerCase();
+    if (lowerCaseName === 'marie') {
+      alert(firstName + ' ,' + 'welcome back best friend!');
+    } else {
+      alert('Welcome Back!');
+    }
   }
 
-  function lowerCaseName() {
-  var lowerCaseName = firstName.toLowerCase();
-
-  if (lowerCaseName === 'marie') {
-    alert(firstName + ' ,' + 'welcome back best friend!');
-  } else {
-    alert('Welcome Back!');
-  }
+  function questionTwo() {
+    var bermuda = prompt("Have I ever lived in the Carribean?");
+    console.log('Have I ever lived in Carribean: ' + bermuda);
+    alert('Bermuda is not in the Carribean, its across from the Carolinas.');
   }
 
-  function bermuda() {
-  var bermuda = prompt("Have I ever lived in the Carribean?");
-  console.log('Have I ever lived in Carribean: ' + bermuda);
-  alert('Bermuda is not in the Carribean, its across from the Carolinas.');
+  function questionThree() {
+    var ohio = prompt('Am I originally from Ohio?');
+    console.log('State of residence:' + ohio);
+    alert('I am originally from Ohio');
   }
 
-  function ohio() {
-  var ohio = prompt('Am I originally from Ohio?');
-  console.log('State of residence:' + ohio);
-  alert('I am originally from Ohio');
+  function questionFour() {
+    var husband = prompt('Am I married?');
+    console.log('Married?' + husband);
+    alert('I am so married, woo!');
   }
 
-  function husband() {
-  var husband = prompt('Am I married?');
-  console.log('Married?' + husband);
-  alert('I am so married, woo!');
+  function questionFive() {
+    var prevCareer = prompt('In my past career I was a Chef?');
+    console.log('Previous Career answer:' + prevCareer);
+    alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
   }
 
-  function prevCareer() {
-  var prevCareer = prompt('In my past career I was a Chef?');
-  console.log('Previous Career answer:' + prevCareer);
-  alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
-  }
-
-  function getRandomInt() {
-    var min = Math.ceil(0);
+  function questionSix() {
+    var min = Math.ceil(1);
     var max = Math.floor(10);
-    return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
-  }
-  var answer = getRandomInt();
-  var randNum;
-  for (var i = 0; i < 4; i++) {
-    randNum = prompt('I am thinking of a number between 1-10, you have 4 guesses to get it right');
-    console.log(randNum);
-    if (answer == randNum) {
-      alert('Congrats you somehow guessed correctly!');
-      break;
-    } else if (answer > randNum) {
-      alert('Guess is too low');
-    } else if (answer < randNum) {
-      alert('Guess is too high, try again');
+    var randomInt= Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+
+    var randNum;
+    for (var i = 0; i < 4; i++) {
+      randNum = prompt('I am thinking of a number between 1-10, you have 4 guesses to get it right');
+      console.log(randNum);
+      if (randomInt == randNum) {
+        alert('Congrats you somehow guessed correctly!');
+        break;
+      } else if (randomInt > randNum) {
+        alert('Guess is too low');
+      } else if (randomInt < randNum) {
+        alert('Guess is too high, try again');
+      }
     }
-  }
-  if (answer != randNum) {
-    alert('Sorry, you are out of attempts, the correct number is ' + answer);
+    if (randomInt != randNum) {
+      alert('Sorry, you are out of attempts, the correct number is ' + randomInt);
+    }
   }
 
-  function question7() {
-  var q7Answer = ['pasta', 'sushi', 'cake'];
-  var question7 = prompt('What is my favorite foods?');
-  var correctA = false;
-  for (var i = 0; i < 6; i++) {
-    question7 = prompt('What is my favorite foods?');
-    console.log(question7);
-  }
-  for (var j = 0; j < q7Answer.length; j++) {
-    if (q7Answer[j] === question7) {
-      alert('Congrats you somehow guessed correctly!');
-      correctA = true;
+  function questionSeven() {
+    var q7Answer = ['pasta', 'sushi', 'cake'];
+    // var question7 = prompt('What is my favorite foods?');
+    var correctA = false;
+    for (var i = 0; i < 6; i++) {
+      var question7 = prompt('What is my favorite foods?');
+      console.log(question7);
+      for (var j = 0; j < q7Answer.length; j++) {
+        if (q7Answer[j] === question7) {
+          alert('Congrats you somehow guessed correctly!');
+          correctA = true;
+          break;
+        }
+      }
+    if (!correctA) {
+      alert('Sorry, try again');
+    } else {
       break;
     }
-  }
-  if (!correctA) {
-    alert('Sorry, try again');
-  } else {
-    break;
   }
 }
+
+  beginQuiz();
+
 });
