@@ -7,9 +7,9 @@
 //[x]Indicates through an alert if the guess is “too high” or “too low”.
 //[x] It should give the user exactly four opportunities to get the correct answer.
 //[x] After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
-//[] Add a 7th question that has multiple possible correct answers that are stored in an array.
-//[] Give the user 6 attempts to guess the correct answer.
-//[]The guesses will end once the user guesses a correct answer or they run out of attempts.
+//[x] Add a 7th question that has multiple possible correct answers that are stored in an array.
+//[x] Give the user 6 attempts to guess the correct answer.
+//[x]The guesses will end once the user guesses a correct answer or they run out of attempts.
 //[] Display all the possible correct answers to the user- use loop
 //[] Final score at end of quiz 
 //[x] Use console.logs throughout the code to track the questions that are being asked to the user, and add addtional CSS to style your HTML page.
