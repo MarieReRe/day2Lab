@@ -18,7 +18,7 @@
 // []Attempt to make your code more DRY by putting all of the questions, answers, and responses to the first five yes/no questions into arrays (or even one huge multidimensional array), and modifying the game logic such that a ‘for’ loop will control the flow from question to question.
 //[x]Make the number-guessing question use a random number as its correct answer.
 
-
+// this is a chenage that we can remove
 
 window.addEventListener('load', (event) => {
   //do these two things first
