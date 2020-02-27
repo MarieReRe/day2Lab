@@ -25,11 +25,25 @@ window.addEventListener('load', (event) => {
   'use strict';
   console.log('This is working');
 
+  function beginQuiz(){
+    firstName();
+    lowerCaseName();
+    bermuda();
+    ohio();
+    husband();
+    prevCareer();
+    getRandomInt();
+    question7();
+  }
+
+  function firstname() {
 
   var firstName = prompt(" Well hello there, I'm Marie, what's your name?");
   console.log('Our new best friends name:' + firstName);
   alert('Nice to meet you ' + firstName + ', ' + 'are you ready to become best friends?');
+  }
 
+  function lowerCaseName() {
   var lowerCaseName = firstName.toLowerCase();
 
   if (lowerCaseName === 'marie') {
@@ -37,23 +51,31 @@ window.addEventListener('load', (event) => {
   } else {
     alert('Welcome Back!');
   }
+  }
 
+  function bermuda() {
   var bermuda = prompt("Have I ever lived in the Carribean?");
   console.log('Have I ever lived in Carribean: ' + bermuda);
   alert('Bermuda is not in the Carribean, its across from the Carolinas.');
+  }
 
+  function ohio() {
   var ohio = prompt('Am I originally from Ohio?');
   console.log('State of residence:' + ohio);
   alert('I am originally from Ohio');
+  }
 
+  function husband() {
   var husband = prompt('Am I married?');
   console.log('Married?' + husband);
   alert('I am so married, woo!');
+  }
 
+  function prevCareer() {
   var prevCareer = prompt('In my past career I was a Chef?');
   console.log('Previous Career answer:' + prevCareer);
   alert('You passed, ' + firstName + ', ' + 'we can now officially be best friends!');
-
+  }
 
   function getRandomInt() {
     var min = Math.ceil(0);
@@ -78,7 +100,7 @@ window.addEventListener('load', (event) => {
     alert('Sorry, you are out of attempts, the correct number is ' + answer);
   }
 
-
+  function question7() {
   var q7Answer = ['pasta', 'sushi', 'cake'];
   var question7 = prompt('What is my favorite foods?');
   var correctA = false;
@@ -98,4 +120,5 @@ window.addEventListener('load', (event) => {
   } else {
     break;
   }
+}
 });
