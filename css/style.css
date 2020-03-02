@@ -80,17 +80,17 @@ footer {
 .footerNav ul li {
   list-style-type: none;
   display: inline-block;
-  
 }
 #food {
-  
+  width: 500px;
+  clear: both;
+  float: left;
+  outline: dashed;
+}
+#items {
   width: 875px;
   clear: both;
   float: right;
   outline: dashed;
 }
 
-
-#fab {
-  font-size: 100px;
-}

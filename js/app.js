@@ -101,7 +101,7 @@
 //   }
 
 //   function questionSeven() {
-//     var q7Answer = ['pasta', 'sushi', 'cake'];
+//     var q7Answer = ['pasta', 'sushi', 'cake', 'dumplings', 'Tacos'];
 //     // var question7 = prompt('What is my favorite foods?');
 //     var correctA = false;
 //     for (var i = 0; i < 6; i++) {
@@ -127,7 +127,7 @@
 
 //   beginQuiz();
 
-// });
+});
 //Starting to try to make a multidimensional array- not sure how good this will be.
 //function aboutMarie() {
  // var question = [" Well hello there, I'm Marie, what's your name?","Have I ever lived in the Carribean?",'Am I originally from Ohio?', 'Am I married?', 'In my past career I was a Chef?']
