@@ -63,6 +63,8 @@ nav {
 }
 
 p {
+display: inline-block;
+text-align: center;
 }
 
 footer {
@@ -78,10 +80,17 @@ footer {
 .footerNav ul li {
   list-style-type: none;
   display: inline-block;
+  
 }
 #food {
+  
   width: 875px;
   clear: both;
   float: right;
   outline: dashed;
+}
+
+
+#fab {
+  font-size: 100px;
 }
