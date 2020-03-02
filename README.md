@@ -4,9 +4,8 @@ html and CSS and JS
 
 
 Journal: 
+How did this go, overall?
 
-*How did this go, overall?*
-This was a pretty challenging lab figuring out how to add loops and remembering curly braces as well as semi colons.
 
 What observations or questions do you have about what you’ve learned so far?
 
