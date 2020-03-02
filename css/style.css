@@ -63,8 +63,8 @@ nav {
 }
 
 p {
-display: inline-block;
-text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 footer {
@@ -81,16 +81,15 @@ footer {
   list-style-type: none;
   display: inline-block;
 }
+
 #food {
   width: 500px;
   clear: both;
   float: left;
-  outline: dashed;
 }
+
 #items {
   width: 875px;
   clear: both;
   float: right;
-  outline: dashed;
 }
-
