@@ -1,13 +1,4 @@
-# day2Lab
-html and CSS and JS
+# Week 1 : About me
 
-
-
-Journal: 
-How did this go, overall?
-
-
-What observations or questions do you have about what you’ve learned so far?
-
-
-How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+I need to add real information about myself 
+I would like to complete the stretch goals over the weekend on 3/7-3/8
